@@ -1,0 +1,90 @@
+
+
+.background{
+    background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+    background-size: cover; 
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    height: 90%;
+    /* background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px; */
+    padding: 30px;
+
+}
+.left .heading1{
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+}
+.left .heading2{
+    font-size: 80px;
+    font-weight: bold;
+    color:#BE1330;
+}
+.left .pera{
+    color: black;
+    font-size: 40px;
+    
+}
+.left .SearchNow{
+    background-color: #BE1330;
+    color: white;
+    padding: 22px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none !important;
+    font-size: 35px;
+}
+.left .SearchNow:hover{
+    background-color: #990820;
+}
+.left .Knowmore{
+    background-color:white ;
+    color:#BE1330;
+    padding: 22px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none !important;
+    font-size: 35px;
+}
+.left .Knowmore:hover{
+    color: #990820;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:90px;
+    margin-top: 50px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    height: 90%;
+    /* background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px; */
+    padding: 30px;
+}

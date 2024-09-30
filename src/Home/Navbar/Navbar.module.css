@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navcontainner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 1px;
+    z-index: 100;
+    width: 100vw;
+    height:70px;
+    background-color: #111827;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.navlinks ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navlinks ul li{
+   
+    cursor: pointer;
+    color: red !important;
+    font-weight: bold !important;
+}
+
+.navlinks ul li:hover{
+    text-decoration: overline;
+    text-decoration-thickness: 2px;
+    transition: color 1.3s ease;
+    color: blue !important;
+}
+/* .navlinks ul li a:active{
+    color: red !important;
+} */
+.navlinks ul li a{
+    text-decoration: none;
+    color: white !important;
+}
+
+.getstartedbtn
+{
+    background-color: #559a58;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+.getstartedbtn:hover{
+    background-color: #388e3c ;
+}
+
+
+.hamburger{
+    display: none !important;
+}
+
+/* @media (max-width:980px){
+    .hamburger{
+        display: none !important;
+    }
+} */
+
+@media(max-width:780px){
+   
+   .navcontainner .hamburger{
+    display:contents !important;;
+    color: white;
+    font-size: 2rem; 
+   }
+   
+   
+   .navlinks ul{
+    display: none !important;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: none;
+   }
+   .navcontainner{
+    justify-content: space-around;
+    height: auto;
+   }
+   .navcontainner .active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: #388e3c;
+}
+  
+}
