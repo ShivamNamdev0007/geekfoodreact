@@ -1,8 +1,8 @@
 import styles from './Navbar.module.css';
-// import { useState } from 'react';
+
 const Header = () => {
-    
-    
+
+
     return (
         <>
             <div className={styles.navcontainner}>
@@ -11,14 +11,16 @@ const Header = () => {
                     <h1>GeekFoods</h1>
                 </div>
                 <div className={styles.navlinks}>
+                    
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">Quote</a></li>
-                        <li><a href="#services">Resturants</a></li>
-                        <li><a href="#Foods">Foods</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="/">Home</a></li>                        
+                        <li><a href="/quote">Quote</a></li> 
+                        <li><a href="/services">Resturants</a></li> 
+                        <li><a href="/Foods">Foods</a></li> 
+                        <li><a href="/contact">Contact</a></li> 
                     </ul>
                 </div>
+                
                 <button className={styles.getstartedbtn}>
                     Get Started
                 </button>
