@@ -5,7 +5,7 @@ const Footer = () => {
     return(
         <>
     <footer className={styles.footer}>
-        <p>�� 2023 Sivam Namdev. All rights reserved.</p>
+        <p className={styles.myname}>�� 2024 Sivam Namdev. All rights reserved.</p>
         <div className={styles.logos}>
             <a href=""><i class="fa-solid fa-burger"></i> Logoipsum</a>
         </div>
