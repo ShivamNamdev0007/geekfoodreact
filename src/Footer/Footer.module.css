@@ -1,0 +1,124 @@
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    flex-direction:column;
+    background-color: #f3f4f6;
+}
+.logos
+{
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+    color: #0D9488;
+}
+
+.logos a {
+    text-decoration: none;
+    color: #0D9488;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pera{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lists
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 1.5rem;
+}
+.lists li a{
+    color: black;
+    text-decoration: none !important;
+    cursor:pointer !important;
+}
+
+.lists li a:hover{
+    color: #0D9488;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+.social a i:hover{
+    font-size: 1.6rem !important;
+    transition: font-size 0.4s ease;
+    color: #0D9488;
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .lists {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px;
+        padding-left: 0; 
+        padding-right: 0; 
+        margin-top: 15px;
+    }
+
+    .logos a {
+        font-size: 1.2rem; 
+        margin-right: 5px;     }
+
+    .pera {
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .lists {
+        flex-direction: row;
+         justify-content: space-around;
+        padding-left: 20px; 
+        padding-right: 20px;
+        margin-top: 20px;
+        gap: 1rem; 
+     }
+
+     .logos a {
+         font-size: 1.4rem; 
+     }
+
+     .pera {
+         font-size: 1rem; 
+     }
+}
+
+
+@media (min-width: 1025px) {
+   .lists {
+       justify-content: space-between; 
+       gap :2rem ;
+   }
+
+   .logos a {
+       font-size :1.5rem ; 
+   }
+
+   .pera {
+       font-size :1.2rem ; 
+   }
+}

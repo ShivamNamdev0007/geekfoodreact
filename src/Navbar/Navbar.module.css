@@ -78,6 +78,9 @@
 } */
 
 @media(max-width:780px){
+    /* .navcontainner{
+        height:90px;
+    } */
    
    .navcontainner .hamburger{
     display:contents !important;;
